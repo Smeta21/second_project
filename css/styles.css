@@ -1,0 +1,418 @@
+/* montserrat-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v25-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin_cyrillic-regular.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+  /* montserrat-500 - latin_cyrillic */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/montserrat-v25-latin_cyrillic-500.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/montserrat-v25-latin_cyrillic-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/montserrat-v25-latin_cyrillic-500.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/montserrat-v25-latin_cyrillic-500.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/montserrat-v25-latin_cyrillic-500.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/montserrat-v25-latin_cyrillic-500.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+ /* playfair-display-regular - latin_cyrillic */
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/playfair-display-v30-latin_cyrillic-regular.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/playfair-display-v30-latin_cyrillic-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/playfair-display-v30-latin_cyrillic-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/playfair-display-v30-latin_cyrillic-regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/playfair-display-v30-latin_cyrillic-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/playfair-display-v30-latin_cyrillic-regular.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+  }
+  /* playfair-display-700 - latin_cyrillic */
+  @font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/playfair-display-v30-latin_cyrillic-700.eot'); /* IE9 Compat Modes */
+    src: local(''),
+         url('../fonts/playfair-display-v30-latin_cyrillic-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/playfair-display-v30-latin_cyrillic-700.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/playfair-display-v30-latin_cyrillic-700.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/playfair-display-v30-latin_cyrillic-700.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/playfair-display-v30-latin_cyrillic-700.svg#PlayfairDisplay') format('svg'); /* Legacy iOS */
+  }
+
+body{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-weight: normal;
+    margin: 0;
+    color: white;
+}
+
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header{
+    background: url(../img/bgc.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+}
+
+.header_adress{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.header_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.header_adress_item{
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.header_menu{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.header_menu span{
+    font-weight: 400;
+    font-size: 14px;
+    border-right: 1px solid white;
+    padding: 13px;
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.header_menu span:last-child{
+    border-right: none;
+}
+
+.header_button{
+    margin: 0 auto;
+    padding-bottom: 150px;
+    
+}
+
+.height-100{
+    height: 100%;
+}
+
+.btn{
+    background: #99862A;
+    color: white;
+    font-family: 'Montserrat';
+    height: 50px;
+    padding: 0px 30px;
+    border: 0;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 15px;
+}
+
+.btn:hover{
+    background: #756720;
+}
+
+.description{
+    background: #282828;
+    padding: 100px;
+}
+
+.description_wrap{
+    border: 3px solid white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.description_title{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 54px;
+    padding-bottom: 40px;
+    font-weight: 700;
+    background: url(../img/Line\ 6.png) no-repeat bottom center
+}
+
+.description_text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 40px;
+}
+
+.descr_img{
+    width: 160px;
+    height: 160px;
+    padding-top: 50px;
+    padding-left: 415px;
+}
+
+.context{
+    background: #E6E3C4;
+    color: black;
+    padding: 80px 0;
+}
+
+.context_wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    border-top: 1px solid #998431;
+    border-bottom: 1px solid #998431;
+}
+
+
+.context_dscr{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.context_title{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    padding-bottom: 30px;
+    font-weight: 700;
+    background: url(../img/Line\ 9.png) no-repeat bottom left;
+    
+}
+
+.context_text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 30px 0;
+    line-height: 150%;
+}
+
+.context_table-year{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid ;
+    padding: 31px 24px 26px 24px;
+}
+
+.context_table-descr{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+}
+
+.context_table-title{
+    font-family: 'Playfair Display';
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.context_pic{
+    width: 540px;
+}
+
+.context_table{
+    display: flex;
+    flex-direction: column;
+}
+
+.context_table-wine{
+    display: flex;
+    border-bottom: 1px solid;
+}
+
+.context_table-wine:last-child{
+    border: none;
+}
+
+.context_table-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 15px 30px;
+}
+
+.context_pic-second{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 26px;
+}
+
+.degustation{
+    background: #282828;
+    padding: 130px;
+    position: relative;
+}
+
+.degustation_wrap{
+    border: 3px solid white;
+    padding: 65px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /* position: relative; */
+
+}
+
+.degustation_title{
+    font-family: 'Playfair Display';
+    font-size: 36px;
+    line-height: 150%;
+    font-weight: 700;
+    background-color: #282828;
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    width: 490px;
+}
+
+.degustation_text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: url(/img/Line\ 10.png) no-repeat center top;
+}
+
+.pic_grape{
+    position: absolute;
+    left: 175px;
+    top: 60px;
+}
+
+.pic_wine{
+    position: absolute;
+    left: 1110px;
+    top: 65px;
+}
+
+.degustation_form{
+   
+}
+
+.degustation_form-field{
+    width: 251px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
+    color: white;
+
+}
+
+.degustation_form-field:first-child{
+    margin-right: 30px;
+}
+
+.degustation_form-field:last-child{
+    width: 540px;
+}
+
+.degustation_form-field::placeholder{
+    color: white;
+}
+
+.deg_button{
+    background-color: transparent;
+    width: 540px;
+    border: 1px solid white;
+    margin-top: 50px;
+}
+
+.deg_button:hover{
+    background: rgb(61, 61, 61);
+}
+
+.footer{
+    background-color: #998431;
+}
+
+.footer_wrap{
+    padding: 50px 0;
+}
+
+.footer_menu{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    border-top: 1px solid white;
+    padding: 20px 65px;
+}
+
+.footer_contacts{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-transform: uppercase;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 0 70px;
+    
+}
+
+.footer_contacts span{
+    border-right: 1px solid white;
+    padding: 20px 0;
+    flex-basis: 25%;
+    text-align: center;
+}
+
+
+.footer_contacts span:last-child{
+    border-right: none;
+}
+
+.footer_icons img{
+   padding-right: 38px;
+}
+.footer_icons img:last-child{
+    padding-right: 0;
+}
